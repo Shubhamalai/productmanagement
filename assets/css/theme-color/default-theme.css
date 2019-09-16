@@ -21,8 +21,7 @@ Author URI : http://www.markups.io/
 
 .mu-send-msg-btn:hover,
 .mu-send-msg-btn:focus,
-.mu-social-media a:hover,
-.mu-social-media a:focus {
+ {
 	border: 1px solid #339999;
 	color: #339999;
 }
