@@ -510,7 +510,7 @@ button:focus {
 .mu-social-media{
 	display: inline;
 	float: left;
-	width: 100%;
+	width: auto;
 }
 
 .mu-social-media h3 {
@@ -1026,7 +1026,7 @@ button:focus {
 .mu-social-media {
 	display: inline;
 	float: left;
-	width: 100%;
+	width: auto;
 }
 
 #form-messages {
