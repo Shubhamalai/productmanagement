@@ -680,13 +680,22 @@ button:focus {
 	margin-bottom: 0px;
 	padding: 16px;
 }
-
-.filtr-item h4 {
-	font-size: 18px;
-	letter-spacing: 1px;
+.filtr-item a:hover, .filtr-item a:focus, .filtr-item h4.portfolio-img-title-wrap:hover, .filtr-item h4.portfolio-img-title-wrap:focus{
+	color: #fff;
 }
 
-.mu-filter-item-content {
+.filtr-item h4.portfolio-img-title-wrap {
+	font-size: 16px;
+	letter-spacing: 1px;
+	position: relative;
+    top: 0px;
+    display: inline-block;
+    background-color: #339999;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+/* .mu-filter-item-content {
 	position: absolute;
 	left: 16px;
 	top: 16px;
@@ -698,7 +707,8 @@ button:focus {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	opacity: 0;
-}
+	background-color: #000;
+} */
 
 .mu-item-thumbonail{
 	display: inline;
@@ -719,9 +729,9 @@ button:focus {
 	        transform: scale(1.1);
 }
 
-.filtr-item:hover .mu-filter-item-content{
-	opacity: 0.94;
-}
+/* .filtr-item:hover .mu-filter-item-content{
+	opacity: 0.5;
+} */
 
 .mu-filter-link,
 .mu-filter-imglink {
@@ -1153,9 +1163,9 @@ button:focus {
 		margin-top: 50px;
 	}
 
-	.mu-filter-item-content {
+	/* . mu-filter-item-content {
 		padding-top: 18%;
-	}
+	} */
 
 	.filtr-item h4 {
 		font-size: 16px;
@@ -1202,14 +1212,20 @@ button:focus {
 		padding: 0 15px;
 	}
 
-	.mu-filter-item-content {
+	/* .mu-filter-item-content {
 		padding-top: 25%;
-	}
+	} */
 
 	.mu-contact-top-single {
 		margin-bottom: 25px;
 	}
-	
+	.filtr-item{
+		margin-bottom: 0px;
+		padding: 5px;
+	}
+	.filtr-item h4.portfolio-img-title-wrap {
+		font-size: 14px;
+	}
 		
 }
 
@@ -1300,9 +1316,9 @@ button:focus {
 		width: 100%;
 	}
 
-	.filtr-item h4 {
+	/* .filtr-item h4 {
 		font-size: 14px;
-	}
+	} */
 
 	.mu-featured-area h1 {
 		font-size: 40px;
@@ -1318,9 +1334,9 @@ button:focus {
 		font-size: 14px;
 	}
 
-	.mu-filter-item-content {
+	/* .mu-filter-item-content {
 		padding-top: 20%;
-	}
+	} */
 
 	.mu-featured-area {
 		padding: 20% 5%;
@@ -1347,15 +1363,15 @@ button:focus {
 		margin-bottom: 0;
 	}
 
-	.mu-filter-item-content {
+	/* .mu-filter-item-content {
 		padding-top: 25%;
 		padding-left: 5px;
 		padding-right: 5px;
-	}
+	} */
 
-	.filtr-item h4 {
+	/* .filtr-item h4 {
 		font-size: 12px;
-	}
+	} */
 
 	.mu-team-content .row > div {
 		width: 100%;
