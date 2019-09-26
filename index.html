@@ -547,6 +547,18 @@
 <!-- End footer -->
 
 
+<div class="chatbot" id="content-mobile" style="bottom:10px; right:10px;">
+    <!-- style 4   chip - logo+text -->
+ 
+ 
+	<div class="">
+        <a target="_blank" href="https://web.whatsapp.com/send?phone=919595723873&amp;text=Hello Shubham," class="nofocus">
+            <div class="chip style-4 " id="style-4" data-ccw="style-4" style="color: white;">
+                <img src="assets/images/portfolio/wapp.png" class="ccw-analytics" id="s4-icon" data-ccw="style-4" alt="WhatsApp">
+                Message me </div>
+        </a>
+	</div>
+</div>
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -574,21 +586,20 @@
 
 
 
-<script type="text/javascript">
-var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
-{widgetcode:"1ab0598cbd86d195400efccb0d9e0551728ac31b72b021dfcd2f8c3b98651259434fd79794f222cf2819310753f34a42", values:{},ready:function(){}};
-var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
-s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+<script type="text/javascript" >
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+		var element = document.getElementById('text');
+		if (!isMobile) {
+			var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+			{widgetcode:"1ab0598cbd86d195400efccb0d9e0551728ac31b72b021dfcd2f8c3b98651259434fd79794f222cf2819310753f34a42", values:{},ready:function(){}};
+			var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+			s.src="https://salesiq.zoho.com/widget";
+			t=d.getElementsByTagName("script")[0];
+			t.parentNode.insertBefore(s,t);
+			d.write("<div id='content-desktop'></div>");
+		}
+
 </script>
-<br/>
-<script>
- /* function initFreshChat() {
-    window.fcWidget.init({
-      token: "ac8d772a-df72-4b41-88b4-7ec4f3a24326",
-      host: "https://wchat.freshchat.com"
-    });
-  }
-  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);*/
-</script>
+
 </body>
 </html>
