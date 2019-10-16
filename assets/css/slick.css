@@ -339,3 +339,10 @@
       #content-mobile  {display: inline;}
 	  #content-desktop {display: none;}
   }
+  .greenBtn{
+      background-color: #339999;
+	  color: white;
+	  margin: 7px;
+	      
+   
+  }
